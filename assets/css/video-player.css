@@ -13,7 +13,8 @@
   display: none;
 }
 .kbg-mirror video {
-  max-width: 90%;
+  max-width: 90vw;
+  max-height: 75vh;
   margin: 0 auto;
   display: block;
   margin-bottom: -1px;
