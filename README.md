@@ -1,4 +1,4 @@
-# Inbox by Gmail
+# Inbox by Gmail Archive
 
 This project archived the Inbox by Gmail introduction website. All assets were retrieved on October 25, 2019 from https://www.google.com/inbox/?hl=en-GB
 
