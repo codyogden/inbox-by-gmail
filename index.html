@@ -15,17 +15,8 @@
     href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,100italic,400italic%7CRoboto+Condensed&amp;lang=en-GB"
     rel="stylesheet">
   <link href="assets/css/main.min.css" rel="stylesheet">
-  <style>
-    .yt-video-link {
-      font-size: 14px;
-      display: block;
-      text-decoration: none;
-      color: #3982F3;
-      font-weight: 300;
-    }
-  </style>
+  <link rel="stylesheet" href="assets/css/video-player.css">
 </head>
-
 <body>
   <div class="main">
     <header class="main-header">
@@ -52,7 +43,8 @@
             <a data-track-action="Nav: Web Button" href="#">Web</a>
           </li>
         </ul>
-      </div><a class="learn-more-btn" data-track-action="Sign in" href="#">Sign in</a>
+      </div>
+      <a class="learn-more-btn" data-track-action="Sign in" href="#">Sign in</a>
     </header>
     <nav>
       <ul>
@@ -137,9 +129,9 @@
                             data-track-action="Intro Web Button" href="#">Web</a>
                         </div>
                       </div>
-                    </div><a class="intro-hidden" data-track-action="Watch the video"
-                      href="https://www.youtube.com/watch?v=VCo3zZ0P4vU" id="watch-video" target="_blank">Watch the video</a>
-                      <a href="assets/videos/youtube.mp4" class="yt-video-link">(local mirror)</a>
+                    </div>
+                      <a id="watch-video" href="assets/videos/youtube.mp4" class="kbg-video-link">Watch the video</a>
+                      <a href="#" id="old-watch-video" style="display: none;">sdfsdf</a>
                   </div>
                 </div>
               </header>
@@ -412,9 +404,20 @@
   </script>
   <script src="assets/js/main.min.js">
   </script>
-  <script>
-    new gbt.main();
-  </script>
+    <!-- Start Video Mirror Player -->
+    <!-- This was added by the archive team. -->
+    <div class="kbg-mirror">
+      <video id="kbg-mirror-video" controls preload="metadata">
+        <source src="assets/videos/youtube.mp4" type="video/mp4">
+      </video>
+      <button id="kbg-mirror-close">Close</button>
+    </div>
+    <script src="assets/js/video-player.js"></script>
+    <!-- End Video Mirror Player -->
+
+    <script>
+      new gbt.main();
+    </script>
 </body>
 
 </html>

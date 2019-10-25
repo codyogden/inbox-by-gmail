@@ -1,0 +1,32 @@
+.kbg-mirror {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.4);
+  height: 100vh;
+  width: 100%;
+  z-index: 99999999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  display: none;
+}
+.kbg-mirror video {
+  max-width: 90%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: -1px;
+}
+.kbg-mirror button {
+  margin-top: 20px;
+  background-color: #3776ea;
+  border: none;
+  min-width: 160px;
+  color: #fff;
+  font-size: 16px;
+  padding: 20px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
