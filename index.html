@@ -418,6 +418,15 @@
     <script>
       new gbt.main();
     </script>
+
+    <!-- Prevent # Links -->
+    <script>
+      document.querySelectorAll('a[href="#"]')
+        .forEach(function (el) {
+          el.removeAttribute('href');
+        });
+    </script>
+
 </body>
 
 </html>
