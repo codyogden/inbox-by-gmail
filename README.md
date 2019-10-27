@@ -14,7 +14,7 @@ Some small changes to the original page had to be fulfilled to ensure the site c
 
 - Added a `muted` attribute to the `video.logo-video` HTML element to prevent a DOMException error which causes the site to fail to load.
 - Replaced the included video player with a simple HTML 5 video modal (`assets/js/video-player.js` and `assets/css/video-player.css`) to preserve the video should the YouTube mirror be deleted.
-- Replaced `watch-video` in `assets/js/main.min.js` with `old-watch-video` to prevent it from loading the internal YouTube video modal.
+- Replaced `watch-video` in `assets/js/main.min.js` with `old-watch-video` to prevent it from loading the internal YouTube video modal. Hid the `old-watch-video` element because it is no longer needed.
 - Manually replaced any external links to  `href="#"`. Also disabled those links from scrolling to the top. This prevents any confusion that this website is part of Google as users are unable to leave or sign in.
 - Removed any tracking or telemetry scripting tags.
 
