@@ -1,6 +1,6 @@
 # Inbox by Gmail Archive
 
-This project archived the Inbox by Gmail introduction website. All assets were retrieved on October 25, 2019 from https://www.google.com/inbox/ It is provided as an archive of a page that no longer exists for user experience and product professionals for research and commentary purposes only. 
+This project archived the Inbox by Gmail introduction website. All assets were retrieved on October 25, 2019 from https://www.google.com/inbox/. This repo and the accompanying website are provided to archive the page which no longer exists for research and commentary by user experience, product professionals, and general public interest.
 
 ## View Locally
 
