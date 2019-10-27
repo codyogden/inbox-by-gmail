@@ -17,5 +17,6 @@ Some small changes to the original page had to be fulfilled to ensure the site c
 - Replaced `watch-video` in `assets/js/main.min.js` with `old-watch-video` to prevent it from loading the internal YouTube video modal. Hid the `old-watch-video` element because it is no longer needed.
 - Manually replaced any external links to  `href="#"`. Also disabled those links from scrolling to the top. This prevents any confusion that this website is part of Google as users are unable to leave or sign in.
 - Removed any tracking or telemetry scripting tags.
+- Remove [this play store link](https://play.google.com/store/apps/details?id=com.google.android.apps.inbox) from `assets/js/main.min.js`.
 
 One of the font files seems to be corrupted, and at the time of archiving it was not working on the production website in Chrome either. This particular font is used in the archive view when it's accessed on a mobile device.
